@@ -43,10 +43,6 @@ export default {
                     img: res.data.sprites.front_default,
                     id: res.data.id,
                     name: res.data.name,
-                    types: res.data.types,
-                    abilities: res.data.abilities,
-                    base_exp: res.data.base_experience,
-                    stats: res.data.stats,
                     
                 };
 

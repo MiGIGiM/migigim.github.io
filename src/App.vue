@@ -1,8 +1,7 @@
 <template>
-    <router-view to="/details/:id">
-        <pokemon-details/>
-    </router-view>
-
+    <div>
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>

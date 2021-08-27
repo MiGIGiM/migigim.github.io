@@ -9,7 +9,6 @@
                 </h3>
             </div>
         </div>
-        
     </div>
     
 </template>
@@ -28,7 +27,7 @@ export default {
     },
     methods:{
         alert(){
-            alert(`Clicked on ${this.pokemon.name}`)
+            this.$router.push({ path: `/details/${this.pokemon.id}` })
         },
         toUppercase(word){
             return word.charAt(0).toUpperCase() + word.slice(1);

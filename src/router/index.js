@@ -11,7 +11,8 @@ const routes = [
     {
         path: '/details/:id',
         name: 'Details',
-        component: Details
+        component: Details,
+        props: true
     }
 ]
 const router = createRouter({
